@@ -2,7 +2,7 @@ CREATE OR REPLACE PACKAGE  "AM_FILL" as
 /*
 *    Purpose: using the Microsoft XLSX files as a templates for data output
 *
-*    Uses AS_ZIP package designed by Anton Scheffer 
+*    Require AS_ZIP package designed by Anton Scheffer 
 *    Download from: http://technology.amis.nl/wp-content/uploads/2010/06/as_zip7.txt
 *
 *    Based on the code of packages as_xlsx & as_read_xlsx designed by Anton Scheffer
