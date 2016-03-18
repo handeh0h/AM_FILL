@@ -1,6 +1,6 @@
 CREATE OR REPLACE PACKAGE  "AM_FILL" as
 /*
-*    Purpose: using the Microsoft OOXML .XLSX files as a template for data output
+*    Purpose: using the Microsoft XLSX files as templates for data output
 *
 *    Uses AS_ZIP package designed by Anton Scheffer 
 *    Download from: http://technology.amis.nl/wp-content/uploads/2010/06/as_zip7.txt
