@@ -72,7 +72,7 @@ Procedure in_field
 , p_options varchar2:='');
 /* 
    IN_TABLE: Fill in table
-   p_sql: sql query text
+   p_sql: sql query text (without trailing semicolon)
    p_cell_addr: default A1 of current sheet
    p_options:
      h - print header (field names)
