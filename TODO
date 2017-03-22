@@ -1,0 +1,3 @@
+BUG: IN_TABLE: 200 rows 'limitation'
+add: IN_SHEET: option 'h' to hide source sheet
+chg: NEW_WORKBOOK: modify workbook
