@@ -26,7 +26,7 @@ CREATE OR REPLACE PACKAGE  "AM_FILL" as
 ******************************************************************************
 * Copyright (C) 2011 - 2013 by Anton Scheffer
 *               2013 - 2017 by MikTim
-* Lisence: MIT
+* License: MIT
 ******************************************************************************
 */
 version constant varchar2(16):='2.70329';
