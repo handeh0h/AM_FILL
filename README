@@ -1,4 +1,9 @@
-# AM_FILL rev70329
+# AM_FILL rev71100 ...refactoring in progress...
 PL/SQL package: using the Microsoft XLSX files as templates for data output
-*    Require AS_ZIP package designed by Anton Scheffer 
-*    Download from: http://technology.amis.nl/wp-content/uploads/2010/06/as_zip7.txt
+  Require AS_ZIP package designed by Anton Scheffer 
+  Download from: http://technology.amis.nl/wp-content/uploads/2010/06/as_zip7.txt
+
+Created and tested:
+  Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production
+XLSX templates:
+  Google Docs, Excel Online (Cloud @mail.ru), Libre Office 5.1.13
