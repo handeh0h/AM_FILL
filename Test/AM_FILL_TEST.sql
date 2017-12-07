@@ -1,4 +1,4 @@
-create or replace FUNCTION am_fill_test(p_workbook BLOB := null) return BLOB
+create or replace FUNCTION am_fill_test(p_workbook BLOB := null, p_options varchar2 := 'e') return BLOB
 as
   l_query varchar2(2000);
   l_cursor am_fill.ref_cursor;
@@ -7,10 +7,10 @@ as
 begin
   if p_workbook is null then
 /* init by build-in workbook */
-    am_fill.init(am_fill.new_workbook(),'e');
+    am_fill.init(am_fill.new_workbook(), p_options);
   else
 /* init by user-defined workbook */
-    am_fill.init(p_workbook, 'e');
+    am_fill.init(p_workbook, p_options);
   end if;
 /* One table per sheet */
   l_query := 'SELECT rownum rn, o.* FROM ALL_OBJECTS o 
