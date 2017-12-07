@@ -40,5 +40,6 @@ begin
     am_fill.init;
     dbms_output.put_line ( DBMS_UTILITY.FORMAT_ERROR_STACK() );
     dbms_output.put_line ( DBMS_UTILITY.FORMAT_ERROR_BACKTRACE() );
-    raise;
+--    raise;  -- это я погорячился
+    return null;
 end;
