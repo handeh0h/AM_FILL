@@ -13,10 +13,11 @@ XLSX:
 Whats new:
   rev 71213
   - catchable exception added;
-  - init e option raising exception reasons changed;
-  - d, n init options added;
+  - INIT e option raising exception reasons changed;
+  - d, n INIT options added;
   - support fully qualified sheet names added;
-  - in_table ref_cursor support added;
+  - IN_TABLE ref_cursor support added;
+  - FINISH shift down and extend named ranges (insert mode);
   - formulas support added;
   - address function logic changed (still unsatisfactory);
   - new_workbook.
