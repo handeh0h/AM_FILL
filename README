@@ -7,4 +7,15 @@ PL/SQL package: using the Microsoft XLSX files as templates for data output
 Created and tested:
   Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production
 XLSX:
-  Google Docs, Excel Online (Cloud @mail.ru), Libre Office 5.3.7.2
+  Google Docs, Excel Online (Cloud @mail.ru), LibreOffice 5.3.7.2
+  Note: LibreOffice 5.1.13 is incompatible by named ranges and functions
+
+Whats new:
+  rev 71213
+  - catchable exception added;
+  - init e option raising exception reasons changed;
+  - d, n init options added;
+  - support fully qualified sheet names;
+  - functions support added;
+  - address function logic changed (still unsatisfactory);
+  - new_workbook.
