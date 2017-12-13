@@ -15,7 +15,7 @@ Whats new:
   - named exception added;
   - INIT: e option raising exception reasons changed;
   - INIT: d, n options added;
-  - support fully qualified sheet names added;
+  - fully qualified sheet names support added;
   - IN_TABLE: ref_cursor support added;
   - FINISH: shifts down and extends named ranges (insert mode);
   - formulas support added;
