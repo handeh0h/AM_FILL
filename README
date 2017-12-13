@@ -15,7 +15,8 @@ Whats new:
   - catchable exception added;
   - init e option raising exception reasons changed;
   - d, n init options added;
-  - support fully qualified sheet names;
+  - support fully qualified sheet names added;
+  - in_table ref_cursor support added;
   - functions support added;
   - address function logic changed (still unsatisfactory);
   - new_workbook.
