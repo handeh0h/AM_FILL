@@ -17,6 +17,6 @@ Whats new:
   - d, n init options added;
   - support fully qualified sheet names added;
   - in_table ref_cursor support added;
-  - functions support added;
+  - formulas support added;
   - address function logic changed (still unsatisfactory);
   - new_workbook.
