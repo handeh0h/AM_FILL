@@ -1,7 +1,7 @@
 # AM_FILL rev71213 
 
-PL/SQL package: using the Microsoft XLSX files as templates for data output
-  Require AS_ZIP package designed by Anton Scheffer 
+PL/SQL package: lightweight the Microsoft XLSX template based reporter
+Require AS_ZIP package designed by Anton Scheffer 
   Download from: http://technology.amis.nl/wp-content/uploads/2010/06/as_zip7.txt
 
 Created and tested:
@@ -11,6 +11,12 @@ XLSX:
   Note: anсient versions LibreOffice has incompatibility with named ranges and formulas
 
 Whats new:
+The idea is exhausted. (p_address as [named] cell range?????)
+
+  rev 712..
+   - cutting merged cells changed;
+   - FINIS: shifts down and extends named ranges (insert mode) fixed;
+   - ADDRESS function completed.
   rev 71213
   - named exception added;
   - INIT: e option raising exception reasons changed;
@@ -19,7 +25,7 @@ Whats new:
   - IN_TABLE: ref_cursor support added;
   - FINISH: shifts down and extends named ranges (insert mode);
   - formulas support added;
-  - address function logic changed (still unsatisfactory);
+  - ADDRESS function logic changed (still unsatisfactory);
   - NEW_WORKBOOK.
   
   rev 70309
