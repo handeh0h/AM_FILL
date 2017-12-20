@@ -15,7 +15,7 @@ The idea is exhausted. (p_address as [named] cell range?????)
 
   rev 712..
    - cutting merged cells changed;
-   - FINIS: shifts down and extends named ranges (insert mode) fixed;
+   - FINISH: shifts down and extends named ranges (insert mode) fixed;
    - ADDRESS function completed.
   rev 71213
   - named exception added;
