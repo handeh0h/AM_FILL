@@ -1379,6 +1379,10 @@ begin
 --debug(t_s,t_r,t_i);   
         t_c := context.fields(t_s)(t_r)(t_i).first;   
         while t_c is not null loop   
+          if t_rst0.cells.exists(t_c) then
+            t_rsti.cells(t_c) := t_rst0.cells(t_c);
+--debug(t_r,t_c,t_rst0.cells(t_c).s);
+          end if;    
           if merge_exists(t_s, t_r, t_c) then -- copy merge styles   
 --debug(t_s,t_r,t_i,t_c);   
             for i in t_c .. t_c + context.merges(t_s)(t_r)(t_c).col_off   
