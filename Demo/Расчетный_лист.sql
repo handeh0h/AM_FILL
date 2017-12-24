@@ -1,6 +1,5 @@
-
 Procedure am_fill_example
-( p_xlsx in out nocopy BLOB  -- шаблон листка
+( p_xlsx in out nocopy BLOB  -- шаблон листка: Расчетный_лист.xlsx
 )
 as
   type tp_names is table of varchar2(100);
