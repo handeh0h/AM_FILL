@@ -1,6 +1,6 @@
-Procedure am_fill_example
-( p_xlsx in out nocopy BLOB  -- шаблон листка: Расчетный_лист.xlsx
-)
+Function am_fill_demo
+( p_xlsx BLOB  -- шаблон листка: Расчетный_лист.xlsx
+) return BLOB
 as
   type tp_names is table of varchar2(100);
   type tp_sums is table of number(10,2);
@@ -12,6 +12,7 @@ as
   l_idays  tp_names := tp_names('32 дн','I кв','20 дн');
   l_rnames tp_names := tp_names('НДФЛ','','','всего удержано');
   l_rsums  tp_sums := tp_sums(28600, null, null, 28600); 
+  l_xlsx BLOB;
 begin
 -- инициализация шаблоном с разрешением exception по ошибке имени
   am_fill.init(p_xlsx,'e');
@@ -35,5 +36,6 @@ begin
   am_fill.in_field(l_rsums(4), 'G9');
   am_fill.in_field(l_isums(4)-l_rsums(4), 'К_выплате');
 -- формирование документа
-  am_fill.finish(p_xlsx);
+  am_fill.finish(l_xlsx);
+  return l_xlsx;
 end;
