@@ -14,7 +14,7 @@ Whats new:
   rev ?
    - p_address as [named] cell range.
   rev 71224
-   - merged cells cutting changed (still unsatisfactory);
+   - insert mode: merged cells cutting changed (still unsatisfactory);
    - FINISH: shifts down and extends named ranges (insert mode) fixed;
    - ADDRESS function completed;
    - IN_SHEET: make visible/hidden the source sheet.
