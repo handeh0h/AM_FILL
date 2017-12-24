@@ -31,10 +31,10 @@ begin
     am_fill.in_field(l_rnames(k), 'E8', 'i');
     am_fill.in_field(l_rsums(k),  'G8', 'i');
   end loop;
--- заполнение итоговой части
-  am_fill.in_field(l_isums(4), 'C9');
-  am_fill.in_field(l_rsums(4), 'G9');
-  am_fill.in_field(l_isums(4)-l_rsums(4), 'К_выплате');
+-- заполнение итоговой части (заменено именованными диапазонами и формулами)
+--  am_fill.in_field(l_isums(4), 'C9');
+--  am_fill.in_field(l_rsums(4), 'G9');
+--  am_fill.in_field(l_isums(4)-l_rsums(4), 'К_выплате');
 -- формирование документа
   am_fill.finish(l_xlsx);
   return l_xlsx;
