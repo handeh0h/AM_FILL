@@ -24,11 +24,11 @@ begin
 -- заполнение переменной части в режиме последовательной вставки строк 
   for k in 1..3 loop
 -- колонки (поля) предпочтительно именовать
-    am_fill.in_field(l_inames(i), 'Нач_Вид', 'i'); 
-    am_fill.in_field(l_isums(i),  'C8', 'i'); 
-    am_fill.in_field(l_idays(i),  'D8', 'i'); 
-    am_fill.in_field(l_rnames(i), 'E8', 'i');
-    am_fill.in_field(l_rsums(i),  'G8', 'i');
+    am_fill.in_field(l_inames(k), 'Нач_Вид', 'i'); 
+    am_fill.in_field(l_isums(k),  'C8', 'i'); 
+    am_fill.in_field(l_idays(k),  'D8', 'i'); 
+    am_fill.in_field(l_rnames(k), 'E8', 'i');
+    am_fill.in_field(l_rsums(k),  'G8', 'i');
   end loop;
 -- заполнение итоговой части
   am_fill.in_field(l_isums(4), 'C9');
