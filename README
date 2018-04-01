@@ -11,21 +11,17 @@ XLSX:
   Note: anсient versions LibreOffice has incompatibility with named ranges and formulas
 
 Whats new:
-  rev ?
-   - p_address as [named] cell range.
   rev 71224
-   - insert mode: merged cells cutting changed (still unsatisfactory);
-   - FINISH: shifts down and extends named ranges (insert mode) fixed;
-   - ADDRESS function completed;
+   - refactored;
+   - named exception added;
+   - INIT: e option raising exception reasons changed;
+   - INIT: d, n options added;
+   - fully qualified sheet names support added;
+   - IN_TABLE: ref_cursor support added;
+   - formulas support added;
+   - insert mode: merged cells cutting changed;
+   - FINISH: shifts down and extends named ranges (insert mode);
+   - ADDRESS function changed;
    - IN_SHEET: make visible/hidden the source sheet.
-  rev 71213
-  - named exception added;
-  - INIT: e option raising exception reasons changed;
-  - INIT: d, n options added;
-  - fully qualified sheet names support added;
-  - IN_TABLE: ref_cursor support added;
-  - FINISH: shifts down and extends named ranges (insert mode);
-  - formulas support added;
-  - ADDRESS function logic changed (still unsatisfactory);
-  - NEW_WORKBOOK.
+   - NEW_WORKBOOK changed.
   rev 70309
