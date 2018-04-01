@@ -1,6 +1,10 @@
-# AM_FILL rev71224 
+# AM_FILL rev 71224 
 
-PL/SQL package: lightweight report generator based on Microsoft xlsx templates
+PL/SQL package: using the Microsoft XLSX files as templates for data output
+Based on the code of packages designed by Anton Scheffer      
+  https://technology.amis.nl/wp-content/uploads/2011/02/as_xlsx11.txt      
+  https://technology.amis.nl/wp-content/uploads/2013/01/as_read_xlsx9.txt      
+
 Require AS_ZIP package designed by Anton Scheffer 
   Download from: http://technology.amis.nl/wp-content/uploads/2010/06/as_zip7.txt
 
