@@ -10,8 +10,8 @@ Require AS_ZIP package designed by Anton Scheffer
 
 Created and tested:
   Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production
-XLSX:
-  Google Docs, Excel Online (Cloud @mail.ru), LibreOffice 5.3.7.2
+  XLSX: Google Docs, Excel Online (Cloud @mail.ru), LibreOffice 5.3.7.2
+
 Notes:
 - the package does not support formula values, so Google Docs preview will show empty cells
   (recalculation of formulas is required);
